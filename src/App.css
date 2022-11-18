@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: #f6f6f6;
+  min-height: 100vh;
+}
+
+.image_logo {
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  border-radius: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .image_logo {
+    animation: image_logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes image_logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
